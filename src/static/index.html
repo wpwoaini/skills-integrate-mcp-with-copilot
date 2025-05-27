@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- 动画分支线背景层 -->
+    <div class="git-branches-bg">
+      <canvas id="git-branches-canvas"></canvas>
+    </div>
     <header>
       <h1>Mergington High School</h1>
       <h2>Extracurricular Activities</h2>
     </header>
-
+    <!-- 吉祥物 Octodex -->
+    <div style="text-align:center; margin: 20px 0;">
+      <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" alt="School Mascot" style="height:120px; margin:0 10px;">
+      <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" alt="School Mascot" style="height:120px; margin:0 10px;">
+    </div>
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
@@ -46,5 +54,7 @@
     </footer>
 
     <script src="app.js"></script>
+    <!-- 新增动画脚本 -->
+    <script src="git-branches-bg.js"></script>
   </body>
 </html>
